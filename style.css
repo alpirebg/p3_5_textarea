@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ @font-face {
+        font-family: Noto;
+        src: url(fonts/NotoSansLydian-Regular.ttf);
+      }
+      body,
+      textarea{
+        font-family: Noto;
+      }
+
+textarea{
+resize: none;
+        position: relative;
+        top: 0;    
+        left: 0;
+        padding: 1em;
+        margin: 1em;
+        background-color: rgb(255, 0, 204);
+        border: 1px solid rgba(229, 255, 0, 0.872);
+        width: 20em;
+        height: 10em;
+}
+
+canvas {
+  display: block;
+}
